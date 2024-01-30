@@ -33,7 +33,7 @@
     background-color: #E4F39E;
     color: #015055;
     font-size: 2vw;
-    width: 20vw;
+    min-width: 20vw;
     height: 5vw;
     justify-content: center;
     align-items: center;
@@ -97,8 +97,15 @@ img{
     color: #E4F39E;
     
 }
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30%;
+}
 li{
     font-size: 1.5vw;
+    text-align: left;
     
 }
 .quizInfo{
@@ -119,7 +126,7 @@ li{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .result{
     display: flex;
@@ -132,9 +139,35 @@ li{
     justify-content: center;
     align-items: center;
 }
-.modeButton{
+/* .dark_mode{
     display: flex;
     align-items: end;
     justify-content: end;
     margin: 3vw;
+} */
+
+#modeButton{
+    position: fixed;
+    left: 75vw;
+    top: 2vh;
+}
+.cond{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+#top{
+    grid-column: 2 span;
+}
+.img img{
+    width: 400px;
+    height: 300px;
+}
+.btn{
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 2px 2px white;
+    background-color: rgb(42, 118, 141);
+    border-radius: 2vw;
+    color: aliceblue;
 }

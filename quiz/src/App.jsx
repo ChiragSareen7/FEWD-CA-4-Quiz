@@ -34,7 +34,7 @@ function App() {
       {!start && (
         <div className="play">
           <button className="playButton" onClick={() => setStart(true)}>
-            Play
+            Start
           </button>
         </div>
       )}

@@ -24,7 +24,7 @@ const DarkMode = () => {
 
   return (
     <div className="dark_mode">
-      <button className={`dark_mode_button ${isDarkMode ? 'dark' : ''}`} onClick={toggleTheme}>
+      <button id="modeButton" className={`dark_mode_button ${isDarkMode ? 'dark btn' : 'btn'}`} onClick={toggleTheme}>
         {isDarkMode ? 'Light Mode' : 'Dark Mode'}
       </button>
     </div>
