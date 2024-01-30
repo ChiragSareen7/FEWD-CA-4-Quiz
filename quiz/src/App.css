@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Julius+Sans+One&display=swap');
+*{
+    background-color: var(--body_background);
+    color: var(--body_color);
+    
+}
+#head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1vw;
+    padding-bottom: 1vw;
+}
+.highlight{
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.front{
+    background-color: var(--body_background);
+    color: var(--body_color);
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    flex-direction: column;
+}
+.answerButton {
+    border-radius: 2vw;
+    background-color: #E4F39E;
+    color: #015055;
+    font-size: 2vw;
+    width: 20vw;
+    height: 5vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .answerButton:hover {
+    background-color: #325e44;
+    color: #d4ec47;
+   
+  }
+  .answers-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;  
+    justify-items: center;
+  }
+
+.highButton{
+    background-color: rgb(255, 88, 88);
+    border-radius: 2vw;
+    height: 2.5vw;
+    width: 17vw;
+    font-size: 1.5vw;
+}  
+#highColor{
+    padding: 3vw;
+}
+#padding{
+    padding-top:3vw ;
+    padding-bottom: 3vw;
+    text-align: center;
+    font-size: 3vw;
+}
+.dark-mode {
+    background-color: #015055;
+    color: #E4F39E;
+  }
+.info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    border-bottom: 2px solid rgb(255, 94, 94);
+}
+.quesNumber{
+    color: black;
+    font-size: 2vw;
+}
+img{
+    height: 10vw;
+    width: 13vw;
+}
+.playButton{
+    height: 5vw;
+    width: 15vw;
+    font-size: 3.5vw;
+    border-radius: 2vw;
+    background-color: #015055;
+    color: #E4F39E;
+    
+}
+li{
+    font-size: 1.5vw;
+    
+}
+.quizInfo{
+   text-align: center;
+}
+.play{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.quesNumber{
+    font-size: 1.5vw;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modeButton{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin: 3vw;
+}
