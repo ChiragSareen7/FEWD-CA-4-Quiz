@@ -159,9 +159,11 @@ li{
 #top{
     grid-column: 2 span;
 }
-.img img{
+.img {
+    margin-top: 3vw;
     width: 400px;
     height: 300px;
+    border-radius: 2vw;
 }
 .btn{
     padding: 10px;
@@ -170,4 +172,100 @@ li{
     background-color: rgb(42, 118, 141);
     border-radius: 2vw;
     color: aliceblue;
+}
+.imageText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 5%; 
+    }
+
+    .playButton {
+        font-size: 2.5vw; 
+    }
+
+    .quizInfo {
+        padding: 0 10%; 
+    }
+
+    .answerButton {
+        font-size: 3vw; 
+        min-width: 40vw;
+        height: 7vw; 
+    }
+    
+   img{
+    margin-top: 10vw;
+    height: 35vw;
+    width: 45vw;
+   }
+   .sharp{
+    font-size: 6vw;
+   }
+   .enter{
+    font-size: 7vw;
+   }
+   .rulesInfo{
+    font-size: 6vw;
+   }
+   li{
+    font-size: 6vw;
+   }
+   .playButton{
+    height: 10vw;
+    width: 15vw;
+   }
+   .heading{
+    font-size: 3.5vw;
+   }
+   .quesNumber{
+    font-size: 4vw;
+   }
+   #padding{
+    font-size: 5vw;
+   }
+   .answers-center{
+    grid-template-rows: repeat(5, 0fr);
+   }
+   .highButton{
+    font-size: 3vw;
+   }
+   .highButton{
+    height: 8vw;
+    width: 16vw;
+   }
+   .name{
+    font-size: 4vw;
+   }
+   .img{
+    height: 10vw;
+    width: 15vw;
+   }
+   
+   .imageText {
+    flex-direction: column; 
+    align-items: center;
+}
+
+.img {
+    margin-bottom: 20px; 
+    margin-left: 25vw;
+}
+
+.result {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40vw;
+}
+ul{
+    padding: 0;
+}
 }

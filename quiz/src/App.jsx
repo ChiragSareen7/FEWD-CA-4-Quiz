@@ -12,18 +12,18 @@ function App() {
         <div className="info">
           <img src="public/download.png" height={150} width={200} alt="Logo" />
           <span>
-            <h1>Welcome to Quizeteria</h1>
+            <h1 className="enter">Welcome to Quizeteria</h1>
           </span>
           <div>
-            <h3>Sharpen your knowledge about react with Quizeteria </h3>
+            <h3 className="sharp">Sharpen your knowledge about react with Quizeteria </h3>
           </div>
         </div>
       )}
       <DarkMode />
       {!start && (
         <div className="quizInfo">
-          <h4>The following quiz contains questions related to React</h4>
-          <ul>
+          <h4 className="rulesInfo">The following quiz contains questions related to React</h4>
+          <ul >
             <li>There are 5 MCQ's type questions.</li>
             <li>Once attempted you can't re-attempt the question again.</li>
             <li>Score will be displayed once all the questions are attempted.</li>

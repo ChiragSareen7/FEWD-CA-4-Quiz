@@ -54,7 +54,7 @@ const [question, setQuestion] = useState(0);
       <div className="header">
         <div id="head">
           <img src="public/download.png" alt="Logo" />
-          <h4>Quizeteria</h4>
+          <h4 className="heading">Quizeteria</h4>
         </div>
         
         </div>
