@@ -9,7 +9,7 @@ import React from 'react'
         </div>
         <div className='imageText'>
         <div className='img'>
-          <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXJzMmFuYXJxOXR4a294eXBjdTlhbWx6bWk0d3dnbDdlYm1ydWNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mGK1g88HZRa2FlKGbz/giphy.gif' alt="good luck" width="400px"></img>
+          <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXJzMmFuYXJxOXR4a294eXBjdTlhbWx6bWk0d3dnbDdlYm1ydWNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mGK1g88HZRa2FlKGbz/giphy.gif' alt="good luck" width="400px" className='friends'></img>
         </div>
     <div className='result'>
       <h2>Your Performance</h2>
